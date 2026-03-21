@@ -1,3 +1,7 @@
+## Team Members
+- Himasa Seinab
+- Shilma
+
 # My Reading Shelf 📚
 
 ## Theme
