@@ -1,0 +1,171 @@
+/* General Page Style */
+
+body{
+font-family: Arial, sans-serif;
+background:#c6bfc9;
+margin:0;
+padding:0;
+color:#000;
+}
+
+/* Hero Section (Home Page) */
+
+.hero-section{
+margin-top:40px;
+}
+
+/* Feature Section */
+
+.feature-section{
+margin-top:60px;
+}
+
+/* Cards */
+
+.card{
+border-radius:8px;
+transition:0.3s;
+border:1px solid #ddd;
+background:linear-gradient(135deg,#f3b4ef,#ccc8c9);
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+/* Discover Page */
+
+.category-section{
+margin-top:40px;
+}
+
+.category-buttons button{
+margin-right:10px;
+margin-top:10px;
+}
+
+.bestseller-section{
+margin-top:40px;
+}
+
+/* App Page */
+
+.filter-section{
+margin-top:40px;
+}
+
+.books-section{
+margin-top:40px;
+}
+
+.book-card img{
+height:200px;
+object-fit:cover;
+}
+
+/* Contact Page */
+
+.contact-header{
+margin-top:40px;
+margin-bottom:40px;
+text-align:center;
+}
+
+.contact-info{
+margin-bottom:40px;
+}
+
+.contact-form{
+margin-bottom:40px;
+}
+
+.contact-form .card{
+padding:20px;
+}
+
+/* Footer */
+
+.footer{
+background:#926da3;
+margin-top:60px;
+padding:40px 0;
+border-top:1px solid #aca3a33f;
+color:#000;
+}
+
+/* Footer Layout (Important for horizontal sections) */
+
+.footer .row{
+display:flex;
+flex-wrap:wrap;
+justify-content:space-between;
+}
+
+.footer .col-md-3{
+flex:1;
+min-width:200px;
+padding:10px;
+}
+
+/* Footer Headings */
+
+.footer h6{
+font-weight:bold;
+margin-bottom:15px;
+}
+
+/* Footer Text */
+
+.footer p{
+margin:5px 0;
+font-size:14px;
+}
+ 
+/* Copyright Section */
+.copyright {
+  background-color:#c6bfc9; 
+  color: black;              
+  text-align: center;
+  padding: 15px 0;          
+  font-size: 17px;
+  font-weight: 500;
+}
+
+/* Gradient Text Styles */
+
+.gradient-title, .gradient-heading, .gradient-footer {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+.gradient-title { background-image: linear-gradient(90deg, #b47da4, #dd87b9); }
+.gradient-heading { background-image: linear-gradient(90deg, #e215a5, #5b86e5); }
+.gradient-footer { background-image: linear-gradient(90deg, #580480, #a13f94); }
+
+.gradient-btn{
+background: linear-gradient(90deg,#460ee2,#dd2476);
+border:none;
+color:white;
+}
+
+.gradient-btn:hover{
+opacity:0.9;
+}
+
+.navbar-brand i{
+font-size:2rem;
+vertical-align:middle;
+}
+
+/* Gradient icon style */
+.gradient-icon {
+  font-size: 3rem; /* bigger icon */
+  background: linear-gradient(45deg, #f714be, #7e11c7);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
